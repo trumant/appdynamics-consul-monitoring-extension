@@ -7,9 +7,12 @@ This extension works only with the standalone machine agent.
 
 Metrics include:
 
-* Number of servers that are in **alive** state
-* Number of servers that are in **left** state
-* Number of servers that are in **failed** state
+* Number of servers that are in **alive** state. Metric key is **servers-alive**
+* Number of servers that are in **left** state. Metric key is **servers-left**
+* Number of servers that are in **failed** state. Metric key is **servers-failed**
+* Number of clients that are in **alive** state. Metric key is **clients-alive**
+* Number of clients that are in **left** state. Metric key is **clients-left**
+* Number of clients that are in **failed** state. Metric key is **clients-failed**
 
 ## Installation
 1. Download the ConsulMonitor.zip found in the Github releases tab
